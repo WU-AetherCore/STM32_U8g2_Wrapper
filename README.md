@@ -17,7 +17,7 @@
 ```
 STM32_U8g2_Wrapper/
 ├── README.md                     # 本说明文档
-├── LICENSE                       # MIT 许可证
+├── LICENSE                       # PolyForm Noncommercial 1.0.0
 ├── THIRD_PARTY_NOTICES.md        # 第三方组件声明（u8g2 / MUI）
 ├── src/                          # 平台无关的共享源码
 │   ├── u8g2/                     # 官方 u8g2 库（含 MUI 菜单库），原样保留
@@ -184,8 +184,8 @@ int main(void)
 
 ## 许可证
 
-- 本仓库封装层代码（`src/WU_OLED/`、`examples/`）采用 [MIT License](LICENSE)。
-- 内置官方 u8g2 库版权归其作者所有（MIT），详见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。
+- 本仓库封装层代码（`src/WU_OLED/`、`examples/`）采用 [PolyForm Noncommercial 1.0.0](LICENSE)：允许个人学习、实验、修改和非商业分享；商业用途须事先取得 WU-AetherCore 的书面许可。
+- 内置官方 u8g2 库版权归其作者所有（MIT），详见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。此前按 MIT 发布的历史版本及已授予权利不会被本次变更追溯撤销。
 
 ## 致谢
 

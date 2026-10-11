@@ -1,0 +1,52 @@
+# ===== Keil MDK =====
+Listings/
+Objects/
+*.uvguix
+*.uvopt
+*.uvoptx
+*.bak
+*.dep
+*.uvprojx.bak
+
+# ===== STM32CubeIDE / Eclipse =====
+Debug/
+Release/
+build/
+*.launch
+.cproject
+.project
+.settings/
+.mxproject
+
+# ===== 编译产物 =====
+*.o
+*.d
+*.lst
+*.map
+*.crf
+*.axf
+*.htm
+*.dep
+*.sct
+*.lnp
+*.iex
+*.sim
+*.scvd
+*.clangd
+
+# ===== 固件输出 =====
+*.hex
+*.bin
+*.elf
+*.mot
+*.lib
+*.a
+
+# ===== 系统 / 工具 =====
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+.idea/
+.vscode/
+*.tmp

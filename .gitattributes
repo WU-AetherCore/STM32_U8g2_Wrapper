@@ -1,0 +1,18 @@
+# 统一文本换行：git 检出时按平台转换
+* text=auto
+
+# C/C++ 源码在 Windows 检出为 CRLF（Keil MDK 友好）
+*.c   text eol=crlf
+*.h   text eol=crlf
+
+# Markdown / 说明文档统一 LF
+*.md  text eol=lf
+
+# 许可证等纯文本
+LICENSE        text eol=lf
+THIRD_PARTY_NOTICES.md text eol=lf
+
+# 二进制安全项
+*.hex binary
+*.bin binary
+*.elf binary
